@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.wheel-container {
+  position: relative;
+  display: inline-block;
+}
+
+#wheelCanvas {
+  border: 2px solid #ddd;
+  border-radius: 50%;
+}
+
+#wheelCanvas {
+  display: block;
+  margin: 0 auto;
+}
+
+#wheel-pointer {
+  position: absolute;
+  top: -40px; /* Oberhalb des Rades */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 30px solid violet; /* Pfeilspitze */
+  z-index: 2;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+
