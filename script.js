@@ -61,7 +61,7 @@ function spinWheel() {
       setTimeout(() => {
         alert(`Herzlichen Glückwunsch! Du hast den Hauptpreis 🎁 gewonnen!`);
         isSpinning = false;
-      window.location.href ="https://benedikt455.github.io/Projekt/Ticket%20PDF%20ges.pdf";
+      window.location.href ="https://benedikt445.github.io/Projekt/Ticket%20PDF%20ges.pdf";
           
       }, 1000);
     }
